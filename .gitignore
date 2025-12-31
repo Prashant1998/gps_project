@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+
+# Data (raw / large files)
+data/
+*.csv
+
+# OS
+.DS_Store
+Thumbs.db
