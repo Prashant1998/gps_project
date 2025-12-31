@@ -22,7 +22,7 @@ CREATE TABLE mart.trip_features(
     trip_efficiency DOUBLE PRECISION
 );
 COPY mart.trip_features
-FROM 'D:\projects\gps_project\Geolife Trajectories 1.3\Geolife Trajectories 1.3\Data\trip_feature_clean.csv'
+FROM 'D:\projects\gps_project\Data\trip_feature_clean.csv'
 DELIMITER ','
 CSV HEADER;
 
