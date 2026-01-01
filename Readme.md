@@ -54,3 +54,15 @@ streamlit run app/app.py
 ![User Overview](screenshots/user_overview.png)
 ![Anomalies](screenshots/anomaly.png)
 
+
+## Performance & Scaling Notes
+
+The analytics pipeline was validated on a 50-user subset of the GeoLife dataset.  
+Given the extremely high density of GPS points in GeoLife, this scale is sufficient to:
+
+- Validate trip segmentation correctness
+- Verify user-level aggregation logic
+- Observe performance characteristics of SQL window functions and aggregations
+- Ensure interactive dashboard responsiveness in a local environment
+
+Beyond this scale, additional local scaling yields diminishing returns and would be better evaluated in a distributed or cloud-based setup. The pipeline design allows scaling by adjusting the ingestion layer without modifying analytical logic.

@@ -26,3 +26,5 @@ FROM 'D:\projects\gps_project\Data\trip_feature_clean.csv'
 DELIMITER ','
 CSV HEADER;
 
+
+
