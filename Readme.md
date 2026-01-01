@@ -68,7 +68,7 @@ Given the extremely high density of GPS points in GeoLife, this scale is suffici
 Beyond this scale, additional local scaling yields diminishing returns and would be better evaluated in a distributed or cloud-based setup. The pipeline design allows scaling by adjusting the ingestion layer without modifying analytical logic.
 
 ## Live Demo
-🔗 https://https://geolifeanalytics.streamlit.app/
+🔗 https://geolifeanalytics.streamlit.app/
 
 
 Data is stored in PostgreSQL (Neon).
