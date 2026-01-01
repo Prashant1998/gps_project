@@ -1,5 +1,5 @@
-from db import get_engine
-from queries import USER_DASH_QUERY, ANOMALY_DASH_QUERY
+from app.db import get_engine
+from app.queries import USER_DASH_QUERY, ANOMALY_DASH_QUERY
 
 import streamlit as st
 import pandas as pd
